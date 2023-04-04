@@ -1,1 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital@0;1&family=Montserrat:ital@0;1&family=Sacramento&display=swap" rel="stylesheet">
+    <title>Intro</title>
+</head>
+<body>
 
+    <!-- ** Top Container ** 
+    Contains:- 
+    * Mountain & cloud images 
+    * Name & title
+    -->
+    <div class="top-container">
+        <img src="images/cloud.png" alt="cloud" id="top-cloud" class="cloud">
+        <h1>I'm Abhijit</h1><br>
+        <p id="intro">a <u>pro</u>grammer</p>
+        <img src="./images/mountain.png" alt="mountain">
+        <img src="./images/cloud.png" alt="cloud" id="bottom-cloud" class="cloud">
+    </div>
+
+    <!-- ** Middle Container ** 
+    Contains:- 
+    * Profile
+        # Profile pic
+        # Introduction
+    * Skills
+        # Web development & iOS development with images & description
+    * Contact info
+        # Contact button tied to email form
+    -->
+
+    <div class="middle-container">
+        <div class="profile">
+
+            <img src="./images/man.svg" alt="profile pic" width="100px" height="100px">
+            <h2>Hello.</h2>
+            <p>I am a web developer and a budding iOS developer</p>
+        </div>
+        <hr>
+        <div class="skills">
+            <h2>My Skills</h2>
+            <div class="skill-row">
+                <img src="./images/code.svg" class="skill-image" id="left-skill">
+                <h3>Web development</h3>
+                <p>I love to build websites from scratch. When I am in web mode I dream in HTML, CSS and Javascript</p>
+            </div>
+
+            <div class="skill-row">
+                <img src="./images/iphone.svg" class="skill-image" id="right-skill">
+                <h3>iOS development</h3>
+                <p>Apple made products beautiful but its software makes them even more prettier. There is no greater fun than working on the most cutting edge and beautiful tech </p>
+            </div>
+        </div>
+        <hr>
+        <div class="contact-me">
+            <h2 id="contact">Get In Touch</h2>
+            <h3>If you love building stuff as much as I do</h3>
+            <!-- <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia voluptatem minima veniam quis nulla vitae ullam ipsa ab dolores debitis vel corrupti fugit, error itaque reiciendis quasi, totam magnam temporibus.</p><br> -->
+            <a href="mailto:sarode.abhijit14@gmail.com?Subject=I'd%20love%20to%20build%20my%20dream%20project%20with%20you&Body=Project%20Name:%0D%0AProject%20Description:%0D%0A" class="btn">CONTACT ME</a>
+        </div>
+    </div>
+
+    <!-- ** Bottom Container ** 
+    Contains:- 
+    * Social logins
+    -->
+
+    <div class="bottom-container">
+        <a href="https://www.linkedin.com" class="footerlink">Linkedin</a>
+        <a href="https://www.twitter.com" class="footerlink">Twitter</a>
+        <a href="https://www.facebook.com" class="footerlink">Facebook</a>
+        <p id="rights">© Abhijit 2021</p>
+    </div>
+</body>
+</html>
